@@ -1,28 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <title>A timeworn way of life</title>
-  <head>
-      <style>
-    body {
-  color: blue;
+<head>
+<style> 
+.center {
+  margin: auto;
 }
-
 div {
-
-   width:500px;
-
-   height :500px;
-
-   background-color:#C7E5FF;
-
+  width: 90%;
+  height: 500px;
+  background-color: #484848;
+  position: center;
+  animation: myfirst 2s;
 }
 
-h1 {
-  color: rgb(93, 82, 134);
-  size:0px }
-      </style>
-  </head>
-  <body>
-      
-  </body>
-</html>  
+@keyframes myfirst {
+  0%   {background-color:#484848; left:0px; top:0px; width: 0px; height: 0px;}
+  100% {background-color:#484848; left:0px; top:0px; width: 90%; height: 500px;}
+}
+.undertale {
+  font-family: Arial, Helvetica, sans-serif;
+  color:#FFFFFF;
+}
+
+button.center {
+  margin: auto;
+  width: 100%;
+  border: 3px solid green;
+  padding: 10px;
+
+}
+</style>
+</head>
+<body>
+
+<p><b>Note:</b> This example does not work in Internet Explorer 9 and earlier versions.</p>
+
+<div class="center"><p class="undertale">This game is meant to represent different stereotypes and is not meant to be offensive, by clicking accept you accept that you understand</p><button value="accept" class="center">accept</button></div>
+
+</body>
+</html>
