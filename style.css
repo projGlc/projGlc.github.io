@@ -1,0 +1,43 @@
+ #parent {position: relative}
+ .center{
+          margin: auto;
+      }
+      div {
+  width: 750px;
+  height: 1200px;
+  background-color: #B9E3FF;
+  position: center;
+  animation: pulse 3s;
+  border-radius: 25px;
+  padding: 20px; 
+  display: table; 
+ font-family: 'Lato', sans-serif;
+}
+@keyframes pulse{
+    0% {background-color:#FCEEF2} 
+    100% {background-color:#B9E3FF}
+}
+h1{
+    color: #393749;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 50px;
+    animation: fade 3s;
+}
+
+p{
+    color:#393749;
+    font-size: 18px;
+    animation: fade 3s;
+}
+@keyframes fade{
+    0% {background-color:#FCEEF2;}
+    100%{background-color: #B9E3FF;}
+}
+.main{
+background-color: white;
+width: 730px;
+height: 1050px;
+position: absolute;
+top: 145px; 
+animation: fade 3s;
+}
